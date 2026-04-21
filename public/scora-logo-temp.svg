@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="56" fill="#0B101E"/>
+
+  <g stroke="#CCFF33" stroke-opacity="0.25" stroke-width="6" stroke-linecap="round">
+    <line x1="30" y1="70" x2="90" y2="200" />
+    <line x1="190" y1="30" x2="230" y2="110" />
+    <line x1="20" y1="180" x2="70" y2="240" />
+  </g>
+
+  <g transform="rotate(12 128 128)">
+    
+    <path d="M 60 80 L 196 150 M 60 150 L 196 80 M 128 30 L 128 200" stroke="#CCFF33" stroke-width="3" stroke-opacity="0.5"/>
+
+    <ellipse cx="128" cy="115" rx="85" ry="100" fill="none" stroke="#CCFF33" stroke-width="16"/>
+    <rect x="120" y="215" width="16" height="50" fill="#CCFF33"/>
+
+    <path d="M 128 65 C 95 65, 85 95, 85 135 C 95 140, 100 135, 105 125 C 110 100, 115 90, 128 90 C 141 90, 146 100, 151 125 C 156 135, 161 140, 171 135 C 171 95, 161 65, 128 65 Z" fill="#F8FAFC"/>
+    
+    <circle cx="128" cy="118" r="15" fill="#F8FAFC"/>
+    <rect x="122" y="125" width="12" height="25" fill="#F8FAFC"/>
+    
+    <rect x="121" y="141" width="14" height="4" fill="#0B101E"/>
+
+    <path d="M 128 148 C 100 148, 75 180, 70 240 L 186 240 C 181 180, 156 148, 128 148 Z" fill="#F8FAFC"/>
+
+    <g transform="translate(0, -10)">
+      <path d="M 128 210 L 128 245 M 112 200 L 98 235 M 144 200 L 158 235" stroke="#CCFF33" stroke-width="4" stroke-linecap="round"/>
+      
+      <path d="M 128 190 L 105 155 L 151 155 Z" fill="#0B101E" stroke="#CCFF33" stroke-width="4" stroke-linejoin="round"/>
+      <line x1="128" y1="155" x2="128" y2="190" stroke="#CCFF33" stroke-width="4"/>
+      
+      <path d="M 116 190 C 116 208, 140 208, 140 190 Z" fill="#CCFF33"/>
+    </g>
+  </g>
+</svg>

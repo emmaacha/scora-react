@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #09090B;
+    color: #FAFAFA;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #27272A; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3F3F46; }
+}
+
+@layer utilities {
+  .bg-vs-lime\/6  { background-color: rgba(204, 255, 51, 0.06); }
+  .bg-vs-lime\/8  { background-color: rgba(204, 255, 51, 0.08); }
+  .bg-vs-lime\/10 { background-color: rgba(204, 255, 51, 0.10); }
+  .bg-red-500\/8  { background-color: rgba(239, 68, 68, 0.08); }
+  .bg-white\/2    { background-color: rgba(255, 255, 255, 0.02); }
+  .bg-white\/3    { background-color: rgba(255, 255, 255, 0.03); }
+  .bg-white\/4    { background-color: rgba(255, 255, 255, 0.04); }
+  .bg-white\/8    { background-color: rgba(255, 255, 255, 0.08); }
+  .border-white\/3 { border-color: rgba(255, 255, 255, 0.03); }
+  .border-white\/5 { border-color: rgba(255, 255, 255, 0.05); }
+  .hover\:bg-white\/2:hover { background-color: rgba(255, 255, 255, 0.02); }
+  .hover\:bg-white\/4:hover { background-color: rgba(255, 255, 255, 0.04); }
+  .hover\:bg-white\/5:hover { background-color: rgba(255, 255, 255, 0.05); }
+  .hover\:bg-white\/8:hover { background-color: rgba(255, 255, 255, 0.08); }
+}
